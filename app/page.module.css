@@ -1,0 +1,155 @@
+/* page.module.css */
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50em;    
+    background-color: #f1f1f1;
+    padding: 4em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.281);
+  }
+  .firstAndLast{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .projectName{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #258fff;
+    padding: 1em;
+    border-radius: 10px;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .select {
+    width: 100%;
+  }
+  
+  .selectedProjectDetails {
+    margin-top: 20px;
+  }
+  
+  .selectedProjects {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #258fff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .error {
+    border: 1px solid rgba(255, 159, 159, 0.69);
+    box-shadow: 0 0 5px rgb(255, 173, 173);
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkboxLabel {
+    margin-left: 5px;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+
+  .selectedProjects {
+  margin-top: 20px;
+}
+
+.selectedProjectsHeader {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.selectedProjectsList {
+  list-style: none;
+  padding: 0;
+}
+
+.selectedProjectItem {
+  margin-bottom: 10px;
+}
+
+.selectedProjectDetails {
+  margin-top: 20px;
+}
+
+
+.xbytton {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50%;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 1em;
+}
+
+.xbytton:hover {
+    background-color: darkred; 
+}
+
+.xbytton:active {
+    transform: scale(0.95); 
+}
+
+.invitationButon {
+    background-color: #4bc44f;
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.invitationButon:hover {
+    background-color: #2c7c30; 
+}
+
+.invitationButon:active {
+    transform: scale(0.90); 
+}
